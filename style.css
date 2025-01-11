@@ -2,166 +2,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-body{
-    height: 100%;
+.conteinar{
+    min-height:100vh;
     width: 100%;
-    background-color: #FAF6EE;
-
-}
-
-nav{
-    height: 50px;
-    width: 100%;
-    background-color: aliceblue;
-    border-bottom:1px solid black ;
-    display: flex;
-    align-items: center;
-    border: none;
-    z-index: 50;
-    
-}
-img{
-    height: 40px;
-    position: relative;
-    left: 20px;
-    top: 5px;
-}
-.box1{
-    height: 50px;
-    width: 50%;
-    background-color:white;
-    border-bottom:1px solid black ;
-}
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    list-style: none;
-    position: relative;
-    top: -28px;
-    left: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-
-}
-.box2{
-    height: 50px;
-    width: 50%;
-    background-color: white;
-    border-bottom:1px solid black ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.input{
-    height: 30px;
-    width: 220px;
-    background-color:white;
-    border-radius:20px ;
-    border: none;
-    padding: 15px;
-    
-    -webkit-box-shadow: -1px 4px 18px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 4px 18px 0px rgba(0,0,0,0.75);
-box-shadow: -1px 4px 18px 0px rgba(0,0,0,0.75);
-
-}
-.profile-nav{
-    height: 30px;
-    width: 100%;
-    background-color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left:20px ;
-    font-weight: 200;
-    font-size: 13px;
-    padding-top: 4px;
-
-}
-.images img{
-    height: 160px;
-    position: absolute;
-    top: 60px;
-    left: 0px;
-    
-
-    
- }
- .golu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -40px;
- }
- .golu img{
-    height: 170px;
-    position: absolute;
-    top: 60px;
-    border: 4px solid #CBA258;
-    border-radius: 50%;
-    position: relative;
-    left:-5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- }
- ::placeholder{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
-    position: relative;
-    left: 10px;
- }
-.sonu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    bottom: 80px;
-    left: 330px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: none;
-    font-weight: 100;
-}
-button{
-    height: 30px;
-    width: 160px;
     background-color: black;
-    color: white;
-    border-radius: 30px;
-    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
    
-}
-
-.sun{
-     position: absolute;
-     right: 30px;
-     bottom:30px; 
    
-}
-.sun img{
-    height: 100px;
-}
-
-
-.date svg{
-    height: 50px;
-    position: relative;
-    top:  -12px;
-    left: -10px;
+  
 
 }
-input{
-    position: relative;
-    top: -65px;
-    left: 20px;
-    border: none;
-    outline: none;
-    font-weight: 100;
-    
+.box:hover{
+    border: 3px solid white;
+    transition: all ease-in-out 0.3s;
+    filter: grayscale(0%);
+    transform: scale(105%);
 }
- 
+.box{
+    height: 250px;
+    width: 300px;
+    background-color: brown;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    filter: grayscale(80%);
+
+}
+.box:first-child{
+    background-image: url(https://images.pexels.com/photos/26152779/pexels-photo-26152779/free-photo-of-skogafoss-waterfall-in-iceland.png?auto=compress&cs=tinysrgb&w=600);
+}
+.box:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/16042048/pexels-photo-16042048/free-photo-of-colossi-of-memnon-in-egypt.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(3){
+    background-image: url(https://images.pexels.com/photos/5667352/pexels-photo-5667352.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(4){
+    background-image: url(https://images.pexels.com/photos/9137766/pexels-photo-9137766.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(5){
+    background-image: url(https://images.pexels.com/photos/18291210/pexels-photo-18291210/free-photo-of-qutub-minar-tower-in-india.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(6){
+    background-image: url(https://images.pexels.com/photos/27923202/pexels-photo-27923202/free-photo-of-a-bridge-over-a-river-with-trees-and-green-grass.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(7){
+    background-image: url(https://images.pexels.com/photos/28848771/pexels-photo-28848771/free-photo-of-golden-gate-bridge-sunset-view-in-san-francisco.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(8){
+    background-image: url(https://images.pexels.com/photos/13911606/pexels-photo-13911606.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.box:nth-child(9){
+    background-image: url(https://images.pexels.com/photos/28902500/pexels-photo-28902500/free-photo-of-aerial-view-of-eiffel-tower-on-a-sunny-day-in-paris.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
