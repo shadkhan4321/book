@@ -1,71 +1,71 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.conteinar{
-    min-height:100vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-   
-   
+nav{
+  padding: 15px 45px;
+  background-color: rgb(15, 14, 14);
+  display: flex;
+  justify-content: space-between;
+
+
+}
+#prime{
+  color: white;
+}
+
+
+.nav-ul{
+  display: flex;
+  list-style: none;
+  width: 60%;
+  align-items: center;justify-content: space-between;
+  color: white;
+
+
+
+}
+.nav-option{
+  display: flex;
+  list-style: none;
+  color:white;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-ul li:hover{
+  background-color: white;
+  color: black;
+  border: 5px;
+
+}
+.nav-ul li{
   
+  padding: 6px;
+  width: 79px;
+  border-radius:5px ;
+
+
+  }
+.nav-option{
+  
+  width: 20%;
 
 }
-.box:hover{
-    border: 3px solid white;
-    transition: all ease-in-out 0.3s;
-    filter: grayscale(0%);
-    transform: scale(105%);
-}
-.box{
-    height: 250px;
-    width: 300px;
-    background-color: brown;
-    margin: 10px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-    filter: grayscale(80%);
+#prime:hover{
+  cursor: pointer;
 
 }
-.box:first-child{
-    background-image: url(https://images.pexels.com/photos/26152779/pexels-photo-26152779/free-photo-of-skogafoss-waterfall-in-iceland.png?auto=compress&cs=tinysrgb&w=600);
+.profile-icon{
+  height: 30px;
 }
-.box:nth-child(2){
-    background-image: url(https://images.pexels.com/photos/16042048/pexels-photo-16042048/free-photo-of-colossi-of-memnon-in-egypt.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(3){
-    background-image: url(https://images.pexels.com/photos/5667352/pexels-photo-5667352.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(4){
-    background-image: url(https://images.pexels.com/photos/9137766/pexels-photo-9137766.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(5){
-    background-image: url(https://images.pexels.com/photos/18291210/pexels-photo-18291210/free-photo-of-qutub-minar-tower-in-india.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(6){
-    background-image: url(https://images.pexels.com/photos/27923202/pexels-photo-27923202/free-photo-of-a-bridge-over-a-river-with-trees-and-green-grass.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(7){
-    background-image: url(https://images.pexels.com/photos/28848771/pexels-photo-28848771/free-photo-of-golden-gate-bridge-sunset-view-in-san-francisco.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(8){
-    background-image: url(https://images.pexels.com/photos/13911606/pexels-photo-13911606.jpeg?auto=compress&cs=tinysrgb&w=600);
-
-}
-.box:nth-child(9){
-    background-image: url(https://images.pexels.com/photos/28902500/pexels-photo-28902500/free-photo-of-aerial-view-of-eiffel-tower-on-a-sunny-day-in-paris.jpeg?auto=compress&cs=tinysrgb&w=600);
-
+.btn{
+  background-color: rgb(36, 162, 236);
+  border: none;
+  width: 80px;
+  border-radius: 5px;
+  color: white;
 }
